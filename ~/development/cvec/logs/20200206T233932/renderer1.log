@@ -1,0 +1,8 @@
+[2020-02-07 11:46:23.636] [renderer1] [error] TreeError [FileExplorer] Data tree node not found: [object Object]: Error: TreeError [FileExplorer] Data tree node not found: [object Object]
+    at Q.getDataNode (file:///snap/code/23/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1079:14)
+    at Q.expand (file:///snap/code/23/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1077:206)
+    at e.onSelectResource (file:///snap/code/23/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6002:257)
+[2020-02-07 12:24:02.945] [renderer1] [error] TreeError [FileExplorer] Data tree node not found: [object Object]: Error: TreeError [FileExplorer] Data tree node not found: [object Object]
+    at Q.getDataNode (file:///snap/code/23/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1079:14)
+    at Q.expand (file:///snap/code/23/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1077:206)
+    at e.onSelectResource (file:///snap/code/23/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6002:257)

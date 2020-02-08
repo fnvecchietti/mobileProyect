@@ -30,3 +30,225 @@
   "typescript",
   "typescriptreact"
 ]
+["INFO" - 11:31:43 AM] Formatting /home/fnbogarin/development/cvec/components/products/productList.jsx
+["INFO" - 11:31:43 AM] Using ignore file (if present) at /home/fnbogarin/development/cvec/.prettierignore
+["INFO" - 11:31:43 AM] Using bundled version of prettier.
+["INFO" - 11:31:43 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 11:31:43 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 11:31:43 AM] Prettier Options:
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/fnbogarin/development/cvec/components/products/productList.jsx",
+  "parser": "babel"
+}
+["INFO" - 11:31:43 AM] Formatting completed in 66.276535ms.
+["INFO" - 11:31:54 AM] Formatting /home/fnbogarin/development/cvec/components/products/productList.jsx
+["INFO" - 11:31:54 AM] Using ignore file (if present) at /home/fnbogarin/development/cvec/.prettierignore
+["INFO" - 11:31:54 AM] Using bundled version of prettier.
+["INFO" - 11:31:54 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 11:31:54 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 11:31:54 AM] Prettier Options:
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/fnbogarin/development/cvec/components/products/productList.jsx",
+  "parser": "babel"
+}
+["INFO" - 11:31:54 AM] Formatting completed in 25.535072ms.
+["INFO" - 11:33:30 AM] Formatting /home/fnbogarin/development/cvec/components/products/productList.jsx
+["INFO" - 11:33:30 AM] Using ignore file (if present) at /home/fnbogarin/development/cvec/.prettierignore
+["INFO" - 11:33:30 AM] Using bundled version of prettier.
+["INFO" - 11:33:30 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 11:33:30 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 11:33:30 AM] Prettier Options:
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/fnbogarin/development/cvec/components/products/productList.jsx",
+  "parser": "babel"
+}
+["INFO" - 11:33:30 AM] Formatting completed in 108.901166ms.
+["INFO" - 3:27:39 PM] Formatting /home/fnbogarin/development/cvec/components/products/productItem.jsx
+["INFO" - 3:27:39 PM] Using ignore file (if present) at /home/fnbogarin/development/cvec/.prettierignore
+["INFO" - 3:27:39 PM] Using bundled version of prettier.
+["INFO" - 3:27:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:27:39 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:27:39 PM] Prettier Options:
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/fnbogarin/development/cvec/components/products/productItem.jsx",
+  "parser": "babel"
+}
+["INFO" - 3:27:39 PM] Formatting completed in 70.739435ms.
+["INFO" - 3:32:54 PM] Formatting /home/fnbogarin/development/cvec/components/products/productItem.jsx
+["INFO" - 3:32:54 PM] Using ignore file (if present) at /home/fnbogarin/development/cvec/.prettierignore
+["INFO" - 3:32:54 PM] Using bundled version of prettier.
+["INFO" - 3:32:54 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:32:54 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:32:54 PM] Prettier Options:
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/fnbogarin/development/cvec/components/products/productItem.jsx",
+  "parser": "babel"
+}
+["ERROR" - 3:32:54 PM] Error formatting document.
+["ERROR" - 3:32:54 PM] Unexpected token, expected "," (16:132)
+  14 |     stock: 1,
+  15 |     productID: 1,
+> 16 |     longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+     |                                                                                                                                    ^
+  17 |   },
+  18 | ];
+  19 | 
+SyntaxError: Unexpected token, expected "," (16:132)
+  14 |     stock: 1,
+  15 |     productID: 1,
+> 16 |     longDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'
+     |                                                                                                                                    ^
+  17 |   },
+  18 | ];
+  19 | 
+	at e (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/node_modules/prettier/parser-babylon.js:1:344)
+	at Object.parse (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/node_modules/prettier/parser-babylon.js:1:262322)
+	at Object.parse (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/node_modules/prettier/index.js:9739:19)
+	at coreFormat (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/node_modules/prettier/index.js:13252:23)
+	at format (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/node_modules/prettier/index.js:13510:73)
+	at formatWithCursor (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/node_modules/prettier/index.js:13526:12)
+	at /home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/node_modules/prettier/index.js:44207:15
+	at Object.format (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/node_modules/prettier/index.js:44226:12)
+	at /home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/dist/extension.js:1:350954
+	at t.default.safeExecution (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/dist/extension.js:1:351254)
+	at t.default.<anonymous> (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/dist/extension.js:1:350934)
+	at Generator.next (<anonymous>)
+	at s (/home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/dist/extension.js:1:345019)
+["INFO" - 3:32:54 PM] Formatting completed in 29.577145ms.
+["INFO" - 4:58:07 PM] Formatting /home/fnbogarin/development/cvec/components/products/productItem.jsx
+["INFO" - 4:58:07 PM] Using ignore file (if present) at /home/fnbogarin/development/cvec/.prettierignore
+["INFO" - 4:58:07 PM] Using bundled version of prettier.
+["INFO" - 4:58:07 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:58:07 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:58:07 PM] Prettier Options:
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "none",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/home/fnbogarin/development/cvec/components/products/productItem.jsx",
+  "parser": "babel"
+}
+["INFO" - 4:58:07 PM] Formatting completed in 77.677872ms.

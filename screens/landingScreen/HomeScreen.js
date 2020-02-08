@@ -9,13 +9,14 @@ import {
   TouchableOpacity,
   View,
 } from 'react-native';
+import { ProductList } from '../../components/products/productList';
 
 
-export default function HomeScreen() {
+export default function HomeScreen(props) {
   return (
     <View style={styles.container}>
       <View style={styles.contentContainer}>
-        <Text>LOGIN COMES HERE</Text>
+        
       </View>
     </View>
   );

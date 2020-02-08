@@ -1399,5 +1399,19 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/fnbogarin/development"
+    "pickerWorkingDir": "/home/fnbogarin/development",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/fnbogarin/development/cvec",
+            "backupPath": "/home/fnbogarin/development/cvec/~/development/cvec/Backups/e828ed3145df61fadd67a758f5514d8f",
+            "uiState": {
+                "mode": 0,
+                "x": 254,
+                "y": 176,
+                "width": 1024,
+                "height": 704
+            }
+        },
+        "openedWindows": []
+    }
 }

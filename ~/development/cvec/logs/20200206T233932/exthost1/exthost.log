@@ -42,3 +42,8 @@
 	at /snap/code/23/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:583:984
 [2020-02-07 11:13:26.575] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"*"}
 [2020-02-07 11:13:26.576] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/fnbogarin/.vscode/extensions/esbenp.prettier-vscode-3.20.0/dist/extension
+[2020-02-07 11:56:53.174] [exthost] [warning] INVALID text edit -> must have at least a label
+[2020-02-07 16:36:47.860] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-02-07 16:36:47.860] [exthost] [error] Error: DisposableStore is missing...
+	at L._convertCompletionItem (/snap/code/23/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:584:351)
+	at /snap/code/23/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:583:984
