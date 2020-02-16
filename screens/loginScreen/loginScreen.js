@@ -10,19 +10,20 @@ import {
   View,
   ActivityIndicator,
 } from 'react-native';
-import { ProductList } from '../../components/products/productList';
 import { LoginForm } from '../../components/forms/users/loginForm';
+import { withFirebaseHOC } from '../../configs/firebase';
 
 
-export default function LoginScreen(props) {
+function LoginScreen(props) {
   const [isLoggin, setLoggin] = useState(false)
   return (
     <View style={styles.container}>
      { isLoggin?  <ActivityIndicator/> : <LoginForm props={props} setLoggin={setLoggin}/>}
-   
     </View>
   );
 }
+
+export default withFirebaseHOC(LoginScreen)
 
 const styles = StyleSheet.create({
     container: {

@@ -1,74 +1,51 @@
-import React from "react";
-import { View, Image, Button } from "react-native";
-import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
-import { Card, Text, Icon } from "react-native-elements";
-import {style} from '../../constants/styles/produtListStyles'
+import React, { useState } from "react";
+import { View, Image } from "react-native";
+import { ScrollView } from "react-native-gesture-handler";
+import { Text } from "react-native-elements";
+import { style } from "../../constants/styles/produtListStyles";
+import { getProducts } from "../services/products";
+import { withFirebaseHOC } from "../../configs/firebase";
 
+console.ignoredYellowBox = ["Setting a timer"];
 
-const OBJCT = [
-  {
-    product: "Bendix",
-    imageUrl: 'https://spatarorepuestos.com/img/280115426005-01-600x600.jpg',
-    price: 3500,
-    shortDescription: "Bendix de arranque para motomel strato 150 compatible con ibr 250 y zb 150 entre otros",
-    stock: 1,
-    productID: 1
-  },  {
-    product: "Bendix",
-    imageUrl: 'https://spatarorepuestos.com/img/280115426005-01-600x600.jpg',
-    price: 3500,
-    shortDescription: "Bendix de arranque para motomel strato 150 compatible con ibr 250 y zb 150 entre otros",
-    stock: 1,
-    productID: 1
-  },  {
-    product: "Bendix",
-    imageUrl: 'https://spatarorepuestos.com/img/280115426005-01-600x600.jpg',
-    price: 3500,
-    shortDescription: "Bendix de arranque para motomel strato 150 compatible con ibr 250 y zb 150 entre otros",
-    stock: 1,
-    productID: 1
-  },  {
-    product: "Bendix",
-    imageUrl: 'https://spatarorepuestos.com/img/280115426005-01-600x600.jpg',
-    price: 3500,
-    shortDescription: "Bendix de arranque para motomel strato 150 compatible con ibr 250 y zb 150 entre otros",
-    stock: 1,
-    productID: 1
-  },  {
-    product: "Bendix",
-    imageUrl: 'https://spatarorepuestos.com/img/280115426005-01-600x600.jpg',
-    price: 3500,
-    shortDescription: "Bendix de arranque para motomel strato 150 compatible con ibr 250 y zb 150 entre otros",
-    stock: 1,
-    productID: 1
-  },
-];
+function ProductList(props) {
+  const [products, setProducts] = useState(null);
+  const [isLoading, setLoading] = useState(true);
 
-export const ProductList = ({props}) => {
+  products == null ? getProducts(props, setProducts, setLoading) : "";
+
   return (
-    <ScrollView>
-      {OBJCT ? (
-        OBJCT.map((item, index) => {
+    <View>
+      {products ? (
+        products.map((item, index) => {
           return (
-            <TouchableOpacity key={index} onPress={()=> props.navigate('Product')}>
-            <Card containerStyle={style.container} >
+            <View key={index}>
               <View style={style.ImageAndProductContainer}>
-                <Image style={style.image} resizeMode="cover" source={{ uri: item.imageUrl }} />
-                <Text style={style.product}>{item.product}</Text>
+                <Image
+                  style={style.image}
+                  resizeMode="cover"
+                  source={{ uri: item.imagePromocion }}
+                />
+                <Text style={style.product}>{item.nombrePromocion}</Text>
               </View>
               <View>
-                <Text style={style.shortDescription}>{item.shortDescription}</Text>
-                <Text style={style.price}>${item.price}</Text>
-                <Text style={style.stock}>Stock: {item.stock}</Text>
+                <Text style={style.shortDescription}>{item.descripcion}</Text>
+                <Text style={style.price}>${item.importe}</Text>
+                <Text style={style.stock}>Stock:</Text>
               </View>
-            </Card>
-            </TouchableOpacity>
+            </View>
           );
         })
       ) : (
         <View></View>
       )}
-    </ScrollView>
+    </View>
   );
-};
+}
 
+export default withFirebaseHOC(ProductList);
+
+// {/*  */}
+//         <Text>
+//           {console.log(item)}
+//         </Text>
