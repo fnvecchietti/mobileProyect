@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { View, Image } from "react-native";
-import { ScrollView } from "react-native-gesture-handler";
 import { Text } from "react-native-elements";
 import { style } from "../../constants/styles/produtListStyles";
 import { getProducts } from "../services/products";
@@ -13,13 +12,13 @@ function ProductList(props) {
   const [isLoading, setLoading] = useState(true);
 
   products == null ? getProducts(props, setProducts, setLoading) : "";
-
+  console.log(products ? products[0].expiracion : '')
   return (
-    <View>
+    <View style={style.container}>
       {products ? (
         products.map((item, index) => {
           return (
-            <View key={index}>
+            <View key={index} style={style.content}>
               <View style={style.ImageAndProductContainer}>
                 <Image
                   style={style.image}
@@ -44,8 +43,3 @@ function ProductList(props) {
 }
 
 export default withFirebaseHOC(ProductList);
-
-// {/*  */}
-//         <Text>
-//           {console.log(item)}
-//         </Text>

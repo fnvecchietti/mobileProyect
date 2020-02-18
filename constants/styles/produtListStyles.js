@@ -8,6 +8,9 @@ export const style = StyleSheet.create({
         alignContent: 'center',
         alignItems: 'center'
     },
+    content: {
+        maxWidth: 50
+    },
     ImageAndProductContainer: {alignItems: 'center'},
     image: {width: 150,
     height: 150},

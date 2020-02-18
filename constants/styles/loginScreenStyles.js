@@ -1,61 +1,15 @@
-import * as WebBrowser from "expo-web-browser";
-import React, { useState } from "react";
-import {
-  Image,
-  Platform,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-  Button,
-  SafeAreaView,
-  RefreshControl,
-  ActivityIndicator
-} from "react-native";
-import ProductList from "../../components/products/productList";
-import { withFirebaseHOC } from "../../configs/firebase";
-import { Header } from "react-native-elements";
+import { StyleSheet } from "react-native";
 
-function HomeScreen(props) {
-  const [refreshing, setRefreshing] = useState(false);
-
-  const onRefresh = () => {
-    setRefreshing(true);
-
-    setTimeout(() => {
-      setRefreshing(false);
-    }, 2000);
-  };
-  return (
-    <View style={styles.container}>
-      <Header centerComponent={{text: 'Progress App'}} containerStyle={{backgroundColor: '#3EC1D3'}}/>
-      <View style={styles.contentContainer}>
-        <SafeAreaView>
-          <ScrollView
-            refreshControl={
-              <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-            }
-          >
-            {refreshing ? <ActivityIndicator /> : <ProductList />}
-          </ScrollView>
-        </SafeAreaView>
-      </View>
-      <Button title="Log out" onPress={() => props.firebase.signOut()} />
-    </View>
-  );
-}
-
-export default withFirebaseHOC(HomeScreen);
-
-HomeScreen.navigationOptions = {
-  header: null
-};
-
-const styles = StyleSheet.create({
+export const loginScreenStyle = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff"
+    backgroundColor: "white",
+    
+  },
+  content: {
+      flex: 2,
+    justifyContent: 'center',
+    
   },
   developmentModeText: {
     marginBottom: 20,
@@ -65,8 +19,8 @@ const styles = StyleSheet.create({
     textAlign: "center"
   },
   contentContainer: {
-    paddingTop: 30,
-    flex: 2
+    justifyContent: "center",
+    backgroundColor: "red"
   },
   welcomeContainer: {
     alignItems: "center",

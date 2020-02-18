@@ -17,7 +17,7 @@ import { withFirebaseHOC } from '../../configs/firebase'
     }
     CheckUser()
 
-    return <View><Text>Hola</Text></View>
+    return <View></View>
 }
 
   
